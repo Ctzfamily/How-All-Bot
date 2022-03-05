@@ -1,5 +1,5 @@
 import random
-from HowAllBot import pbot 
+from HowAllBot import pbot
 from HowAllBot.plugins import inline
 from pyrogram import filters, Client
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
@@ -29,32 +29,60 @@ help_text = """
 """
 tutorial_text = "<b>Here is The tutorial 🤝<\b>"
 
-@pbot.on_message(filters.command(["start"], ['/', ".", "?"]))
+
+@pbot.on_message(filters.command(["start"], ["/", ".", "?"]))
 async def start(pbot, m: Message):
-    buttons = [[
-        InlineKeyboardButton("Share any thing! 🤝", switch_inline_query_current_chat=""),
-        InlineKeyboardButton("Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot")
-    ]]
-    await m.reply_photo(random.choice(BOT), caption=text.format(m.from_user.first_name),
-                             reply_markup=InlineKeyboardMarkup(buttons))
+    buttons = [
+        [
+            InlineKeyboardButton(
+                "Share any thing! 🤝", switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+            ),
+        ]
+    ]
+    await m.reply_photo(
+        random.choice(BOT),
+        caption=text.format(m.from_user.first_name),
+        reply_markup=InlineKeyboardMarkup(buttons),
+    )
 
-@pbot.on_message(filters.command(["help"], ['/', ".", "?"]))
+
+@pbot.on_message(filters.command(["help"], ["/", ".", "?"]))
 async def help(client, message):
-    buttons = [[
-        InlineKeyboardButton("Share any thing! 🤝", switch_inline_query_current_chat=""),
-        InlineKeyboardButton("Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot")
-    ]]
-    await message.reply_photo(random.choice(BOT), caption=help_text,
-                             reply_markup=InlineKeyboardMarkup(buttons))
+    buttons = [
+        [
+            InlineKeyboardButton(
+                "Share any thing! 🤝", switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+            ),
+        ]
+    ]
+    await message.reply_photo(
+        random.choice(BOT),
+        caption=help_text,
+        reply_markup=InlineKeyboardMarkup(buttons),
+    )
 
-@pbot.on_message(filters.command(["tutorial"], ['/', ".", "?"]))
+
+@pbot.on_message(filters.command(["tutorial"], ["/", ".", "?"]))
 async def tutorial(client, message):
-    buttons = [[
-        InlineKeyboardButton("Share any thing! 🤝", switch_inline_query_current_chat=""),
-        InlineKeyboardButton("Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot")
-    ]]
-    await message.reply_video(HOWALL, caption=tutorial_text,
-                             reply_markup=InlineKeyboardMarkup(buttons))
+    buttons = [
+        [
+            InlineKeyboardButton(
+                "Share any thing! 🤝", switch_inline_query_current_chat=""
+            ),
+            InlineKeyboardButton(
+                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+            ),
+        ]
+    ]
+    await message.reply_video(
+        HOWALL, caption=tutorial_text, reply_markup=InlineKeyboardMarkup(buttons)
+    )
 
 
 if __name__ == "__main__":

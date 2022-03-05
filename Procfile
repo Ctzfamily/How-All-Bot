@@ -1,1 +1,1 @@
-worker: python3 -m How_All_Bot
+worker: python3 -m HowAllBot

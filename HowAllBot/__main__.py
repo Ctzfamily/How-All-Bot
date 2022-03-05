@@ -27,7 +27,9 @@ help_text = """
 <b>💬 Please Don't Come Asking Help on Your Fork:</b>
 <b>©️ @Aasf_Cyberking</b>
 """
-tutorial_text = "<b>Here is The tutorial 🤝<\b>"
+tutorial_text = """
+<b>Here is The tutorial 🤝</b>
+"""
 
 
 @pbot.on_message(filters.command(["start"], ["/", ".", "?"]))

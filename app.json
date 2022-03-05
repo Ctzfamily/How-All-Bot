@@ -1,0 +1,35 @@
+{
+    "name": "How-All-Bot Inline",
+    "description": "Pyrogram Based Fun Inline Bot",
+    "logo": "https://telegra.ph/file/ca1edb8c585c0b30adb97.jpg",
+    "keywords": [
+      "telegram",
+      "bot",
+      "inline",
+      "howall",
+      "aasf",
+      "team",
+      "pyrogram"
+   ],
+
+    "repository": "https://github.com/Team-Aasf/How-All-Bot",
+
+    "env": {
+      "BOT_TOKEN": {
+         "description": "Your bot token. Get from @BotFather",
+         "required": true,
+         "value": ""
+        },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for How All Inline.",
+         "required": true,
+         "value": ""
+        },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for How All Inline.",
+         "required": true,
+         "value": ""
+        }
+      
+     }
+}

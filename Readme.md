@@ -12,7 +12,6 @@ Thank you for contributing with me in this Project:
 + [H0daka](https://github.com/h0daka) : DEV | RANDOM CODE
 + [Rajkumar](https://github.com/Awesome-RJ) : BASE CODE
 + [Pokurt](https://github.com/pokurt) : BASE CODE 
-+ [Pranav ⁪⁬⁮⁮⁮⁮Ajay](https://github.com/MoeZilla) : BASE CODE
 
 Well, Feel free to open pull requests should any be missing.
 ## Available on Telegram [@How_All_Bot](https://t.me/How_All_Bot)

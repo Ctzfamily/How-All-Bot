@@ -32,7 +32,7 @@ async def inline_query_handler(client, query):
             results=[
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🔥I am</b> {random.randint(1, 100)}<b>% Horny!</b>",
+                        f"<b>🔥I am</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% Horny!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/fab6e21499ac634c02e00.jpg",
@@ -50,7 +50,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🏳️‍🌈I am</b> {random.randint(1, 100)}<b>% Gay!</b>",
+                        f"<b>🏳️‍🌈I am</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% Gay!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/de5777c0bc54e6c5b6d89.jpg",
@@ -68,7 +68,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>💜I am</b> {random.randint(1, 100)}<b>% lezbian!</b>",
+                        f"<b>💜I am</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% lezbian!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/5d0f9f2b1140054297986.jpg",
@@ -86,7 +86,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🧠I have</b> {random.randint(1, 100)}<b>% iq!</b>",
+                        f"<b>🧠I have</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% iq!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/03f0e2ccfa9728c1eafde.jpg",
@@ -104,7 +104,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>😫I am</b> {random.randint(1, 100)}<b>% Tired!</b>",
+                        f"<b>😫I am</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% Tired!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/70bfd9c3e310a3475ebb8.jpg",
@@ -122,7 +122,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🥺I am</b> {random.randint(1, 100)}<b>% Cute!</b>",
+                        f"<b>🥺I am</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>% Cute!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/0f1e2402ae4a689c342ed.jpg",
@@ -140,7 +140,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🦶 My foot size is</b> {random.randint(1, 100)}<b>!</b>",
+                        f"<b>🦶 My foot size is</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/1d153acd01d24c49fef0f.jpg",
@@ -158,7 +158,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🍒 My boobs size is</b> {random.randint(1, 100)}<b>!</b>",
+                        f"<b>🍒 My boobs size is</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/4ff0bdbff806bd026dc13.jpg",
@@ -176,7 +176,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🍆 My cock size is</b> {random.randint(1, 100)}<b>inch!</b>",
+                        f"<b>🍆 My cock size is</b> {random.choice([random.randint(1, 100), random.randint(1, 100), random.randint(1, 100)])}<b>inch!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/3397fc1c23cc5dbeb5981.jpg",
@@ -194,7 +194,7 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🍑 My ass is</b> {random.choice(aasf)} <b>!</b>",
+                        f"<b>🍑 My ass is</b> {random.choice([random.choice(aasf), random.choice(aasf), random.choice(aasf)])} <b>!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/7a110bc87f55234239fbf.jpg",

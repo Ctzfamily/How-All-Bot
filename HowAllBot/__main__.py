@@ -21,11 +21,13 @@ text = """
 <b>Welcome!</b> {}
 <b>This Bot Is Inspired By @HowAllBot</b>
 <b>Maintained By @Aasf_Cyberking 👄💋</b>
+
+<b> Powered by @TechZPremiumBots </b>
 """
 help_text = """
 <b>💡 Either press the button attached to this message and select the chat you would like to post in or simply enter "@How_All_Bot" into your text box.</b>
-<b>💬 Please Don't Come Asking Help on Your Fork:</b>
-<b>©️ @Aasf_Cyberking</b>
+<b>💬 Want More Bots Like This Contact:</b>
+<b>©️ @TechZPremiumBots</b>
 """
 tutorial_text = """
 <b>Here is The tutorial 🤝</b>

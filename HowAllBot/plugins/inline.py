@@ -12,8 +12,8 @@ from pyrogram.types import (
 text = """
 <b>💡 Either press the button attached to this message and select the chat you would like to post in or simply enter "@How_All_Bot" into your text box.</b>
 
-<b>💬 Please Don't Come Asking Help on Your Fork:</b>
-<b>©️ @Aasf_Cyberking</b>
+<b>💬 Want More Bots Like This Contact:</b>
+<b>©️ @TechZPremiumBots</b>
 """
 
 aasf = (
@@ -36,13 +36,13 @@ async def inline_query_handler(client, query):
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/fab6e21499ac634c02e00.jpg",
-                    title=f"🔥 How honry are U?",
+                    title=f"🔥 How horny are U?",
                     description=f"Send Your Current hornyess To This Chat.",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
                                 InlineKeyboardButton(
-                                    "Share your horyness! 🔥", switch_inline_query=""
+                                    "Share your hornyness! 🔥", switch_inline_query=""
                                 ),
                             ]
                         ]
@@ -86,11 +86,11 @@ async def inline_query_handler(client, query):
                 ),
                 InlineQueryResultArticle(
                     input_message_content=InputTextMessageContent(
-                        f"<b>🧠I am</b> {random.randint(1, 100)}<b>% iq!</b>",
+                        f"<b>🧠I have</b> {random.randint(1, 100)}<b>% iq!</b>",
                         disable_web_page_preview=True,
                     ),
                     thumb_url="https://telegra.ph/file/03f0e2ccfa9728c1eafde.jpg",
-                    title=f"🧠 How iq are U?",
+                    title=f"🧠 How much iq do you have?",
                     description=f"Send Your Current iq To This Chat.",
                     reply_markup=InlineKeyboardMarkup(
                         [
@@ -221,7 +221,7 @@ async def inline_query_handler(client, query):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "Tech Z",
+                                    "TechZ Premium",
                                     url="http://t.me/TechZPremiumBots",
                                 ),
                                 InlineKeyboardButton(

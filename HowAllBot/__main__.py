@@ -40,7 +40,7 @@ async def start(pbot, m: Message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+                "Tech Z", url="http://t.me/TechZPremiumBots"
             ),
         ]
     ]
@@ -59,7 +59,7 @@ async def help(client, message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+                "Tech Z", url="http://t.me/TechZPremiumBots"
             ),
         ]
     ]
@@ -78,7 +78,7 @@ async def tutorial(client, message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Repo 💻", url="https://github.com/Team-Aasf/How-All-Bot"
+                "Tech Z", url="http://t.me/TechZPremiumBots"
             ),
         ]
     ]

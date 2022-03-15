@@ -221,8 +221,8 @@ async def inline_query_handler(client, query):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "Repo! 💻",
-                                    url="https://github.com/Team-Aasf/HowAllBot",
+                                    "Tech Z",
+                                    url="http://t.me/TechZPremiumBots",
                                 ),
                                 InlineKeyboardButton(
                                     "Share any thing! 🤝", switch_inline_query=""

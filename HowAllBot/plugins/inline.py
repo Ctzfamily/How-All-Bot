@@ -12,8 +12,8 @@ from pyrogram.types import (
 text = """
 <b>💡 Either press the button attached to this message and select the chat you would like to post in or simply enter "@How_All_Bot" into your text box.</b>
 
-<b>💬 Want More Bots Like This Contact:</b>
-<b>©️ @TechZPremiumBots</b>
+<b>💬 Don't Come Asking How To Fork It Or Any Other Issues:</b>
+<b>©️ @Aasf_Cyberking</b>
 """
 
 aasf = (
@@ -221,8 +221,8 @@ async def inline_query_handler(client, query):
                         [
                             [
                                 InlineKeyboardButton(
-                                    "TechZ Premium",
-                                    url="http://t.me/TechZPremiumBots",
+                                    "Repo 🏁",
+                                    url="https://github.com/Team-Aasf/How-All-Bot",
                                 ),
                                 InlineKeyboardButton(
                                     "Share any thing! 🤝", switch_inline_query=""

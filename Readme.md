@@ -10,6 +10,7 @@ Thank you for contributing with me in this Project:
 
 + [Aasf](https://github.com/AASFCYBERKING) : OWNER | DEV 
 + [H0daka](https://github.com/h0daka) : DEV | RANDOM CODE
++ [AuraMoon55](https://github.com/AuraMoon55) : DEV | RANDOM CODE
 + [Rajkumar](https://github.com/Awesome-RJ) : BASE CODE
 + [Pokurt](https://github.com/pokurt) : BASE CODE 
 

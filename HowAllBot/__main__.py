@@ -22,12 +22,12 @@ text = """
 <b>This Bot Is Inspired By @HowAllBot</b>
 <b>Maintained By @Aasf_Cyberking 👄💋</b>
 
-<b> Powered by @TechZPremiumBots </b>
+<b> Powered by @Aasf_Cyberking </b>
 """
 help_text = """
 <b>💡 Either press the button attached to this message and select the chat you would like to post in or simply enter "@How_All_Bot" into your text box.</b>
-<b>💬 Want More Bots Like This Contact:</b>
-<b>©️ @TechZPremiumBots</b>
+<b>💬 Don't Come Asking How To Fork It Or Ask For Source Code:</b>
+<b>©️ @Aasf_Cyberking
 """
 tutorial_text = """
 <b>Here is The tutorial 🤝</b>
@@ -42,7 +42,7 @@ async def start(pbot, m: Message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Tech Z", url="http://t.me/TechZPremiumBots"
+                "Repo 🏁", url="https://github.com/Team-Aasf/How-All-Bot"
             ),
         ]
     ]
@@ -61,7 +61,7 @@ async def help(client, message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Tech Z", url="http://t.me/TechZPremiumBots"
+                "Repo 🏁", url="https://github.com/Team-Aasf/How-All-Bot"
             ),
         ]
     ]
@@ -80,7 +80,7 @@ async def tutorial(client, message):
                 "Share any thing! 🤝", switch_inline_query_current_chat=""
             ),
             InlineKeyboardButton(
-                "Tech Z", url="http://t.me/TechZPremiumBots"
+                "Repo 🏁", url="https://github.com/Team-Aasf/How-All-Bot"
             ),
         ]
     ]
